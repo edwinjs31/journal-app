@@ -1,0 +1,53 @@
+.notes-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.notes-appbar {
+    align-items: center;
+    background-color: #0a9396;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.notes-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.notes-texarea:focus,.notes-title:focus{
+    outline: none;
+}
+.notes-texarea{
+    /* border: 1px solid #000; */
+    color: #000;
+    font-size: 20px;
+    flex: 1 1 auto;
+    resize: none;
+    border: none;
+}
+
+.notes-title{
+ border: none;
+ color: #000;
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+.image{
+    width: 250px;
+}
+.notes-image{
+    box-shadow: 5px 5px #000;
+    width: 250px;
+}
+
+.fa-trash-can:hover{
+    color: #e63946;
+    transition: .3s ease;
+}

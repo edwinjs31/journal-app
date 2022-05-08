@@ -1,0 +1,14 @@
+aside{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 450px;
+}
+.fa-calendar-plus:hover{
+    color: #0a9396;
+    transition: .3s ease;
+}

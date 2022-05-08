@@ -1,0 +1,56 @@
+.journal-entries{
+    flex: 1 1 auto;
+    margin-top: 30px;
+    overflow-y: scroll;
+
+}
+.entry{
+    background-color: white;
+    border-radius: 5px;
+    color: #000;
+    display: flex;
+    margin-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.entry:hover{
+    background: #005f73;
+    color: white;
+    transition: .3s ease;
+}
+.entries-picture{   
+    margin: 0.8rem 0.5rem;
+    height: 100px;
+    width: 250px;
+}
+.jourlal-body{
+    padding: 10px;
+
+}
+.jourlal-title{
+font-size: 14px;
+font-weight: bold;
+}
+.jourlal-content{
+    font-size: 12px;
+
+}
+.journal-date{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.nothing{
+    align-items: center;
+    background-color: #457b9d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    
+}

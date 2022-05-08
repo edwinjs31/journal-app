@@ -1,0 +1,24 @@
+.gradient-custom {
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(71, 20, 126), rgb(29, 80, 169))
+}
+
+/* LOGIN STYLES */
+.borde-r {
+    border-radius: 1rem;
+}
+
+/* REGISTER STILES*/
+.register {
+    width: 25rem;
+    border-radius: 1rem;
+    color: black;
+
+}
+.alert-error{
+    background: crimson;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}

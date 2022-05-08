@@ -1,0 +1,14 @@
+
+.loading-screen{
+    margin-top: 40vh;
+    margin-left: 40vw;
+    
+}
+.loading-forms {
+    width: 5rem;
+    height: 5rem;
+}
+.text-loading{
+    margin-left: 2rem;
+    display: inline-flex;
+}
